@@ -1,0 +1,27 @@
+{
+  "name": "@ildug/cryox",
+  "version": "1.0.0",
+  "description": "Cryogenic clone of object state. Enhanced with a golem copy (Handle the golem without fear)",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "rm -rf ./dist/* && tsc "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilDug/cryox.git"
+  },
+  "author": "ildug",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilDug/cryox/issues"
+  },
+  "homepage": "https://github.com/ilDug/cryox#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "typescript": "^4.5.4"
+  }
+}
